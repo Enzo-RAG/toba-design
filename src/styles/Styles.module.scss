@@ -1,0 +1,33 @@
+/* src/styles.module.css */
+
+$font-stack: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$text-color: black;
+
+
+%font-basic {
+  font-size: 1rem;
+}
+
+body {
+  @extend %font-basic;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    // font-size: 1rem;
+    font-weight: 1.5;
+    line-height: 1.5;
+    color: $text-color;
+    background-color: #fff;
+  }
+  
+  /* styles skipped */
+  
+  .header {
+    @extend %font-basic;
+    font-weight: 100;
+    &__test{
+
+        color: green;
+
+
+    }
+  }

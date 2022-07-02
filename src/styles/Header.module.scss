@@ -1,0 +1,25 @@
+
+$font-stack: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$background-color-header: black;
+$background-color : white;
+$texte-color: white;
+$texte-size: 1em;
+
+
+body {
+    color: $texte-color;
+    font-family: $font-stack;
+    
+    
+    background-color: $background-color;
+  }
+
+.header {
+    background-color: $background-color-header;
+    font-size: 1em;
+    &__link{
+        color: $texte-color;
+    }
+    
+  }
