@@ -1,20 +1,13 @@
-
-
-import React from 'react';
-
-
+import React from 'react'
+import Nav from '../components/Nav'
 
 function MotionDesign() {
-
-  
-  return (
-
-    <div>
-        
-        <div>motion design</div>
-     </div>
-  );
+    return (
+        <div>
+            <Nav />
+            <div>motion design</div>
+        </div>
+    )
 }
 
-
-export default(MotionDesign)
+export default MotionDesign

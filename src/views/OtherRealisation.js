@@ -1,14 +1,13 @@
 import React from 'react'
-
 import Nav from '../components/Nav'
 
-function HomePage() {
+function OtherRealisation() {
     return (
         <div>
             <Nav />
-            <div>Home page</div>
+            <div>other real</div>
         </div>
     )
 }
 
-export default HomePage
+export default OtherRealisation

@@ -1,14 +1,13 @@
 import React from 'react'
-
 import Nav from '../components/Nav'
 
-function HomePage() {
+function WhoIAm() {
     return (
         <div>
             <Nav />
-            <div>Home page</div>
+            <div> who i am</div>
         </div>
     )
 }
 
-export default HomePage
+export default WhoIAm
