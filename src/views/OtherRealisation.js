@@ -6,6 +6,8 @@ function OtherRealisation() {
         <div>
             <Nav />
             <div>other real</div>
+            <div>other real</div>
+            <div>other real</div>
         </div>
     )
 }
