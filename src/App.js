@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import './styles/Styles.module.scss'
-
+import './App.css'
 import HomePage from './views/HomePage'
 import MotionDesign from './views/MotionDesign'
 import OtherRealisation from './views/OtherRealisation'
