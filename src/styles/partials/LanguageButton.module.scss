@@ -1,0 +1,18 @@
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 0.375em;
+    font-size: 1em;
+    font-weight: 700;
+    height: 2em;
+    border: none;
+    cursor: pointer;
+    border: solid 0.15em white;
+    margin: 0.2em;
+
+    &:disabled {
+        background-color: white;
+        color: black;
+        cursor: auto;
+    }
+}

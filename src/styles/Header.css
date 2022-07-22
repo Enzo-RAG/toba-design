@@ -1,62 +1,4 @@
-/* // $font-stack: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
-// $background-color-header: black;
-// $background-color : white;
-// $texte-color: white;
-// $texte-size: 1em;
-
-// // body {
-// //     color: $texte-color;
-// //     font-family: $font-stack;
-// //     background-color: $background-color;
-// //   }
-
-// .header {
-
-//     display: flex;
-//     align-items: center;
-//     justify-content: space-around;
-//     background-color: $background-color-header;
-//     font-size: 1em;
-//     &__link{
-//         color: $texte-color;
-//     }
-//     &__img{
-
-//       width: 5em;
-//       height: 5em;
-
-//     }
-//     &__link{
-
-//       text-decoration: none;
-//       font-weight: 700;
-//       &:hover{
-//         transform: scale(1.1);
-//       }
-
-//     }
-//     &__button{
-//       background-color: black;
-//       color: white;
-//       border-radius: 0.375em;
-//       font-size: 1em;
-//       font-weight: 700;
-//       height: 2em;
-//       border: none;
-//       cursor: pointer;
-//       border: solid 0.15em white;
-//       margin: 0.2em;
-
-//       &:disabled{
-//         background-color: white;
-//         color: black;
-//         cursor: auto;
-//       }
-
-//     }
-
-//   } */
 
 .navbar {
     display: flex;
@@ -79,8 +21,19 @@
 }
 
 .navbar__link {
-    padding: 0 0.3em;
+    padding: 0 0.8em;
+    display: block;
     color: inherit;
+}
+.navbar__link:hover{
+    transition: 0.3s ;
+    transform: scale(1.1);
+    font-weight: 700;
+
+}
+.navbar__active{
+        color: white;
+    font-weight: 700;
 }
 .navbar__burger {
     width: 2.5em;
@@ -95,7 +48,14 @@
 }
 .navbar__disablelanguage{
     display: block;
+    
 }
+.navbar__logo{
+    width: 5em;
+    cursor:pointer;
+}
+
+
 @media screen and (max-width: 767px) {
     .navbar__links {
         display: flex;
@@ -125,8 +85,10 @@
         width: 3vw;
         height: 1px;
         background-color: white;
+        
 
     }
+    
     .navbar__item:last-child::after{
         display: none;
     }
@@ -135,6 +97,14 @@
         padding: 1.5em;
         font-size: 5vw;
     }
+    .navbar__active{
+        display: block;
+        padding: 1.5em;
+        font-size: 5vw;
+        color: white;
+        font-weight: 700;
+    }
+    
     .navbar__burger {
         display: block;
         position: fixed;
@@ -206,5 +176,6 @@
     }
     .navbar__disablelanguage{
         display: none;
+        visibility: hidden;
     }
 }

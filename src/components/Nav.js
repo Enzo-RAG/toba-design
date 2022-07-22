@@ -1,69 +1,60 @@
-import i18next from 'i18next'
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Header.css'
+import LanguageButton from './partials/LanguageButton'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
-const lngs = {
-    en: { nativeName: 'English' },
-    fr: { nativeName: 'Francais' },
-}
+import { useLocation } from 'react-router-dom'
+
 function Nav() {
     const { t } = useTranslation()
-
+    const sampleLocation = useLocation()
+    console.log(sampleLocation)
     const [showLinks, setshowLinks] = useState(false)
 
     const handleShowLinks = () => {
         setshowLinks(!showLinks)
     }
-
-    const buttonLanguage = () => {
-        return (
-            <div>
-                {Object.keys(lngs).map((lng) => (
-                    <button
-                        className="header__button"
-                        type="submit"
-                        key={lng}
-                        onClick={() => i18next.changeLanguage(lng)}
-                        disabled={i18next.resolvedLanguage === lng}
-                    >
-                        <div disabled={i18next.resolvedLanguage === lng} className={'header__text'}>
-                            {lngs[lng].nativeName}
-                        </div>
-                    </button>
-                ))}
-            </div>
-        )
+    const activeLink = (ref) => {
+        if (sampleLocation.pathname === ref) {
+            return 'navbar__active'
+        } else {
+            return 'navbar__link'
+        }
     }
-    // ${showLinks ? Styles.navbar__links__shownav : Styles.navbar__hidenav}
+
     return (
         <nav className={`navbar ${showLinks ? 'shownav' : 'handi'}`}>
-            <div className="navbar__logo">logo</div>
+            <img src="tobalogo.svg" alt="logo" className="navbar__logo" />
             <ul className="navbar__links">
                 <li className="navbar__item slideInDown-1">
-                    <Link className="navbar__link" to="/">
+                    <Link className={activeLink('/')} to="/">
                         {t('home')}
                     </Link>
                 </li>
                 <li className="navbar__item slideInDown-2">
-                    <Link to="/motionDesign" className="navbar__link">
+                    <Link to="/motionDesign" className={activeLink('/motionDesign')}>
                         {t('motion_design')}
                     </Link>
                 </li>
                 <li className="navbar__item slideInDown-3">
-                    <Link to="/otherRealisation" className="navbar__link">
+                    <Link to="/otherRealisation" className={activeLink('/otherRealisation')}>
                         {t('other-realisation')}
                     </Link>
                 </li>
                 <li className="navbar__item slideInDown-4 ">
-                    <Link to="/whoIam" className="navbar__link">
+                    <Link to="/whoIam" className={activeLink('/whoIam')}>
                         {t('who_I_am')}
                     </Link>
                 </li>
-                <li className="navbar__item slideInDown-5 navbar__language">{buttonLanguage()}</li>
+                <li className="navbar__item slideInDown-5 navbar__language">
+                    <LanguageButton />
+                </li>
             </ul>
-            <div className="navbar__disablelanguage">{buttonLanguage()}</div>
+            <div className="navbar__disablelanguage">
+                <LanguageButton />
+            </div>
+
             <button className="navbar__burger" onClick={handleShowLinks}>
                 <span className="navbar__bar"></span>
             </button>
