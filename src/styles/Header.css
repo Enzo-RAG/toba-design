@@ -26,13 +26,14 @@
     color: inherit;
 }
 .navbar__link:hover{
-    transition: 0.3s ;
-    transform: scale(1.1);
+    
     font-weight: 700;
 
 }
 .navbar__active{
-        color: white;
+    padding: 0 0.8em;
+    display: block;
+    color: inherit;
     font-weight: 700;
 }
 .navbar__burger {
