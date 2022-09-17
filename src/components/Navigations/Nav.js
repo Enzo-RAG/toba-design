@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import '../styles/Header.css'
-import LanguageButton from './partials/LanguageButton'
+import '/home/enzo/projet/toba-design/src/styles/Navigations/Header.css'
+import LanguageButton from '/home/enzo/projet/toba-design/src/components/Navigations/partials/LanguageButton.js'
 import { useTranslation } from 'react-i18next'
 import { useState } from 'react'
 import { useLocation } from 'react-router-dom'
@@ -9,7 +9,6 @@ import { useLocation } from 'react-router-dom'
 function Nav() {
     const { t } = useTranslation()
     const sampleLocation = useLocation()
-    console.log(sampleLocation)
     const [showLinks, setshowLinks] = useState(false)
 
     const handleShowLinks = () => {

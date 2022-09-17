@@ -2,8 +2,8 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
 import './App.css'
-import HomePage from './views/HomePage'
-import MotionDesign from './views/MotionDesign'
+import HomePage from './views/HomePages/HomePage'
+import MotionDesign from './views/MotionDesigns/MotionDesign'
 import OtherRealisation from './views/OtherRealisation'
 import WhoIAm from './views/WhoIAm'
 

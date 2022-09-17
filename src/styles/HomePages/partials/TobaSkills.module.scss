@@ -1,0 +1,22 @@
+.skills {
+    display: flex;
+    justify-content: space-around;
+    &__presentation {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 15em;
+        text-align: center;
+    }
+    &__container {
+        width: 15em;
+        height: 15em;
+    }
+    &__picture {
+        width: 100%;
+        height: 100%;
+        background: var(--theme-background-color);
+        object-fit: contain;
+    }
+}

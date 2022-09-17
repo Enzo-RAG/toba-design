@@ -2,5 +2,25 @@
     "home":"Home",
     "motion_design" : "Motion Design",
     "other-realisation": "Other Realisation",
-    "who_I_am" :"Who I am?"
+    "who_I_am" :"Who I am?",
+    "home_page2" : "test",
+    "home_page":{
+        "presentation": {
+        "title":"Toba Motion design",
+        "name": "hi,My name is Thomas but everybody calls me Toba",
+        "portfolio": "this is my Motion design portfolio "
+    }, 
+    "skills":{
+       "engeneer": "trained engineer",
+       "engeneer_paragraph": "This training allows me to be rigorous, in the work that will be rendered, precise in the details and a methodical approach to succeed in giving life to your idea.",
+       "toba": "Toba",
+       "toba_paragraph": "here is the artist who will realize your ideas. passionate about creation, the motion desgin is the perfect expretion of a mix of videos, image and sound. a universal communication to transmit your message with the perfect emotion",
+        "my_portfolio": "My Portfolio",
+        "my_portfolio_paragraph": ""
+    }
+},
+"motion_design_page":{
+    "title":"the different realizations"
+ }
+
 }

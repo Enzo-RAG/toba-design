@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from '../components/Nav'
+import Nav from '/home/enzo/projet/toba-design/src/components/Navigations/Nav.js'
 
 function OtherRealisation() {
     return (

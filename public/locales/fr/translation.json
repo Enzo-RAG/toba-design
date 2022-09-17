@@ -2,5 +2,25 @@
     "home":"Acceuil",
     "motion_design" : "Motion Design",
     "other-realisation": "Autre realisation",
-    "who_I_am" :"Qui suis-je?"
+    "who_I_am" :"Qui suis-je?",
+    "home_page2" : "test",
+    "home_page":{
+        "presentation": {
+        "title":"Toba Motion design",
+        "name": "Bonjour, je m'appel Thomas mais tout le monde m'appel Toba",
+        "portfolio": "voici mon portfolio de motion desgin "
+    },
+
+    "skills":{
+        "engeneer": "ingénieur de formation",
+        "engeneer_paragraph": "cette formation me permet d'etre rigoureux, dans le travail qui va etre rendu, precis dans les détails et une approche méthodique pour réussir a donnée vie a votre idée.",
+        "toba": "Toba",
+       "toba_paragraph": "voici l'artiste qui realisera vos idées. passioner de creation, le motion desgin est l'expretion parfait d'un melange de videos, image et son. une communication universel pour transmert votre meassage avec la parfaite émotion",
+       "portfolio": "Mon Portfolio",
+       "portfolio_paragraph": "mes dernieres creation"
+     }},
+     "motion_design_page":{
+        "title":"les différente réalisation"
+     }
+
 }

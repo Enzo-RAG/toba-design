@@ -1,6 +1,6 @@
 import i18next from 'i18next'
 import React from 'react'
-import styles from '/home/enzo/projet/toba-design/src/styles/partials/LanguageButton.module.scss'
+import styles from '/home/enzo/projet/toba-design/src/styles/Navigations/partials/LanguageButton.module.scss'
 
 const lngs = {
     en: { nativeName: 'English' },

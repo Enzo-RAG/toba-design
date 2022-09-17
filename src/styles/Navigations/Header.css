@@ -5,15 +5,15 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     min-height: 4.6875em;
     padding: 1rem;
+    
     background-color: black;
     color: white;
     top:0;
     left: 0;
-
     right: 0;
 }
 .navbar__links {
