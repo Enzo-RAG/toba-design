@@ -8,10 +8,7 @@ function MotionDesign() {
     return (
         <div>
             <Nav />
-            <div className={styles['MotionDesignPAge']}>
-                <h3>{t('motion_design_page.title')}</h3>
-                <Videos />
-            </div>
+            <div> je suis lka</div>
         </div>
     )
 }
