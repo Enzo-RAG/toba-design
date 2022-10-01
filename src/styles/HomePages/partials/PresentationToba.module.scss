@@ -1,4 +1,7 @@
+@use '/home/enzo/projet/toba-design/src/styles/variables.scss';
+
 .presentation {
+    background-color: variables.$background-light;
     display: flex;
     flex-direction: column;
     align-items: center;
