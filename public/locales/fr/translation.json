@@ -23,7 +23,10 @@
         "title": "les dernier realisation",
         "description": "description peut etre en data"
 
-     }},
+     }
+    ,"my_recommendation":{
+        "title": "ils me recommandent"
+    }},
      "motion_design_page":{
         "title":"les différente réalisation"
      }

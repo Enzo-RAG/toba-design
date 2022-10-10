@@ -1,0 +1,9 @@
+@use '/home/enzo/projet/toba-design/src/styles/variables.scss';
+
+.myRecommendation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: variables.$background-middle;
+}

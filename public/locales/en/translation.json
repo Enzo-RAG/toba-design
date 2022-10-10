@@ -20,10 +20,13 @@
    },
         "last_realization":{
             "title": "the latest achievement",
-            "description": "description peut en data",
+            "description": "description peut en data"
             
     
-         }},
+        }
+        ,"my_recommendation":{
+            "title": "they recommend me"
+        }},
 "motion_design_page":{
     "title":"the different realizations"
  }

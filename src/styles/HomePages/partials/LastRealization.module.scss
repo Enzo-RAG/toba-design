@@ -17,10 +17,14 @@ $peakopacity: 0.7;
         align-items: center;
         justify-content: space-around;
     }
+    &__longbow {
+        position: relative;
+        right: 88px;
+    }
     &__arrows {
         width: $size;
         height: $size;
-        margin: 0 0 1em 0;
+
         transform: rotate(-90deg);
 
         &:before {

@@ -19,7 +19,9 @@ function LastRealization() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                 ></iframe>
-                <Link to="/motionDesign" className={styles['lastRealization__arrows']}></Link>
+                <Link className={styles['lastRealization__longbow']} to="/motionDesign">
+                    <div className={styles['lastRealization__arrows']}></div>
+                </Link>
             </div>
         </div>
     )
