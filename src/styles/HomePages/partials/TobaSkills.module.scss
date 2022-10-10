@@ -3,6 +3,7 @@
 .skills {
     display: flex;
     justify-content: space-around;
+    background-color: variables.$background-middle;
     &__presentation {
         display: flex;
         flex-direction: column;
