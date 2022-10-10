@@ -18,6 +18,11 @@
        "toba_paragraph": "voici l'artiste qui realisera vos idées. passioner de creation, le motion desgin est l'expretion parfait d'un melange de videos, image et son. une communication universel pour transmert votre meassage avec la parfaite émotion",
        "portfolio": "Mon Portfolio",
        "portfolio_paragraph": "mes dernieres creation"
+     },
+     "last_realization":{
+        "title": "les dernier realisation",
+        "description": "description peut etre en data"
+
      }},
      "motion_design_page":{
         "title":"les différente réalisation"
