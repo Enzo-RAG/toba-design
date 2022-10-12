@@ -7,29 +7,23 @@ function PresenationToba() {
     return (
         <div className={styles['skills']}>
             <div className={styles['skills__presentation']}>
-                <div className={styles['skills__container']}>
-                    <img className={styles['skills__picture']} src="gears-photo.jpg" alt="gears-logo" />{' '}
-                </div>
+                <img className={styles['skills__picture']} src="toba-photo.jpg" alt="toba" />
 
-                <h3>{t('home_page.skills.engeneer')}</h3>
-                <p>{t('home_page.skills.engeneer_paragraph')}</p>
+                <div className={styles['skills__details']}>
+                    <h3>{t('home_page.skills.toba')}</h3>
+                    <p className={styles['skills__paragraph']}>{t('home_page.skills.toba_paragraph')}</p>
+                </div>
             </div>
             <div className={styles['skills__presentation']}>
-                <div className={styles['skills__container']}>
-                    <img className={styles['skills__picture']} src="toba-photo.jpg" alt="toba" />
-                </div>
-                <h3>{t('home_page.skills.toba')}</h3>
-                <p>{t('home_page.skills.toba_paragraph')}</p>
-            </div>
-            <div className={styles['skills__presentation']}>
-                <div className={styles['skills__container']}>
-                    <img className={styles['skills__picture']} src="toba logo insta.png" alt="logo facebook" />
-                </div>
-                <h3> {t('home_page.skills.portfolio')}</h3>
+                <img className={styles['skills__picture']} src="malt.png" alt="logo facebook" />
 
-                <p>
-                    <Link to="/motionDesign">{t('home_page.skills.portfolio_paragraph')}</Link>
-                </p>
+                <div className={styles['skills__details']}>
+                    <h3> {t('home_page.skills.portfolio')}</h3>
+
+                    <p className={styles['skills__paragraph']}>
+                        <Link to="/motionDesign">{t('home_page.skills.portfolio_paragraph')}</Link>
+                    </p>
+                </div>
             </div>
         </div>
     )
