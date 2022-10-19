@@ -8,6 +8,7 @@ function LanguageButton(props) {
     const [MiniPicture, setMiniPicture] = useState(props.miniPicture)
     const [Title, setTitle] = useState(props.title)
     const [Descritption, setDescritption] = useState(props.description)
+    const [Id, setId] = useState(props.id)
 
     return (
         <div className={styles[`flip-card`]}>
@@ -18,8 +19,8 @@ function LanguageButton(props) {
                     </div>
                 </div>
                 <div className={styles[`flip-card-back`]}>
-                    <Link className={styles[`flip-card-back-text`]} to="/motionDesign/detail&id=6">
-                        <img src={MiniPicture} />
+                    <Link className={styles[`flip-card-back-text`]} to={`/detail${Id}`}>
+                        <img src={MiniPicture} alt="" />
                         <h2> {Title}</h2>
                         <h3>{Descritption}</h3>
                     </Link>

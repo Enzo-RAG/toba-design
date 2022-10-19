@@ -5,6 +5,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/aOyKw6_cqxw/0.jpg',
         title: 'Allauch',
         description: 'magnifique ville de Allauch',
+        youTube: 'https://www.youtube.com/embed/aOyKw6_cqxw',
     },
 
     {
@@ -13,6 +14,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/lzfVQ8erzKg/0.jpg',
         title: 'Oil Addiction',
         description: 'addiction au petrol',
+        youTube: 'https://www.youtube.com/embed/lzfVQ8erzKg',
     },
 
     {
@@ -21,6 +23,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/w5AA_wUR0MY/0.jpg',
         title: 'Alice',
         description: 'Life and Love',
+        youTube: 'https://www.youtube.com/embed/w5AA_wUR0MY',
     },
 
     {
@@ -29,6 +32,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/8_z24iax0Eg/0.jpg',
         title: 'Showreel 2021',
         description: 'Welcome 2021',
+        youTube: 'https://www.youtube.com/embed/8_z24iax0Eg',
     },
 
     {
@@ -37,6 +41,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/M0fzkI2n0Nk/0.jpg',
         title: 'Oïo',
         description: 'oeil and demons',
+        youTube: 'https://www.youtube.com/embed/M0fzkI2n0Nk',
     },
 
     {
@@ -45,6 +50,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/1sw-Zw4VmbY/0.jpg',
         title: 'Fausse publicité SNCF (loop)',
         description: 'on bouge avec OuSNCF',
+        youTube: 'https://www.youtube.com/embed/1sw-Zw4VmbY',
     },
     {
         id: 7,
@@ -52,6 +58,7 @@ var data = [
         miniPicture: 'https://img.youtube.com/vi/pcRrzeJMzOs/0.jpg',
         title: 'VetoVet - Comment ça marche ?',
         description: 'projet pour la societe Vetotech',
+        youTube: 'https://www.youtube.com/embed/pcRrzeJMzOs',
     },
 ]
 

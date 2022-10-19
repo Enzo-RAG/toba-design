@@ -13,6 +13,7 @@ function MotionDesign() {
                 miniPicture={data.miniPicture}
                 title={data.title}
                 description={data.description}
+                id={data.id}
             />
         )
     })

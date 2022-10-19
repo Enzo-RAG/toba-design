@@ -6,7 +6,7 @@ function PresenationToba() {
     const { t } = useTranslation()
     return (
         <div className={styles['presentation']}>
-            <h1 className={styles['presentation__job']}>{t('home_page.presentation.title')} </h1>
+            <h1 className={styles['presentation__title']}>{t('home_page.presentation.title')} </h1>
             <h2 className={styles['presentation__paragraphe']}>{t('home_page.presentation.name')} </h2>
             <h2 className={styles['presentation__paragraphe']}>{t('home_page.presentation.portfolio')} </h2>
         </div>

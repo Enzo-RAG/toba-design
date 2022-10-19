@@ -11,6 +11,7 @@ function LastRealization() {
                 <p>{t('home_page.last_realization.description')}</p>
 
                 <iframe
+                    className={styles['lastRealization__video']}
                     width="560"
                     height="315"
                     src="https://www.youtube.com/embed/aOyKw6_cqxw"

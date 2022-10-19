@@ -14,7 +14,6 @@ function HomePage() {
             <TobaSkills />
             <LastRealisation />
             <MyRecommendation />
-
             <Footer />
         </div>
     )

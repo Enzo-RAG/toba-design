@@ -6,7 +6,7 @@ import HomePage from './views/HomePages/HomePage'
 import MotionDesign from './views/MotionDesigns/MotionDesign'
 import OtherRealisation from './views/OtherRealisation'
 import WhoIAm from './views/WhoIAm'
-import DetailProject from './views/MotionDesigns/DetailProject'
+import DetailProject from './views/DetailProject/DetailProject'
 
 function App() {
     return (
@@ -16,7 +16,7 @@ function App() {
                 <Route element={<MotionDesign />} path="/motionDesign" />
                 <Route element={<OtherRealisation />} path="/otherRealisation" />
                 <Route element={<WhoIAm />} path="/whoIAm" />
-                <Route element={<DetailProject />} path="/motionDesign/detail" />
+                <Route element={<DetailProject />} path="/detail:id" />
             </Routes>
         </div>
     )
