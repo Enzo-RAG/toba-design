@@ -12,7 +12,7 @@ var data = {
         },
     ],
     projet: [
-        ({
+        {
             id: 1,
             frontPicture: 'https://img.youtube.com/vi/aOyKw6_cqxw/mqdefault.jpg',
             miniPicture: 'https://img.youtube.com/vi/aOyKw6_cqxw/0.jpg',
@@ -67,7 +67,7 @@ var data = {
             title: 'VetoVet - Comment ça marche ?',
             description: 'projet pour la societe Vetotech',
             youTube: 'https://www.youtube.com/embed/pcRrzeJMzOs',
-        }),
+        },
     ],
 }
 

@@ -11,22 +11,9 @@ function LanguageButton(props) {
     const [Id, setId] = useState(props.id)
 
     return (
-        <div className={styles[`flip-card`]}>
-            <div className={styles[`flip-card-inner`]}>
-                <div className={styles[`flip-card-front`]}>
-                    <div className={styles[`test`]}>
-                        <img className={styles[`flip-card-front-img`]} src={FrontPicture} />
-                    </div>
-                </div>
-                <div className={styles[`flip-card-back`]}>
-                    <Link className={styles[`flip-card-back-text`]} to={`/detail${Id}`}>
-                        <img src={MiniPicture} alt="" />
-                        <h2> {Title}</h2>
-                        <h3>{Descritption}</h3>
-                    </Link>
-                </div>
-            </div>
-        </div>
+        <Link className={styles[`card`]} to={`/detail${Id}`}>
+            <img className={styles[`card__img`]} src={FrontPicture} alt="projet_img" />
+        </Link>
     )
 }
 

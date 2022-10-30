@@ -33,10 +33,6 @@ function Nav() {
         }
     }
 
-    console.log('verid data', Url)
-
-    console.log(displayPsychedelicEffect)
-
     return (
         <div>
             {displayPsychedelicEffect()}

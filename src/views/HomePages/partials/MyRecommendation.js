@@ -17,7 +17,6 @@ function MyRecommendation() {
         )
     })
 
-    console.log('teste verif date', data.recommendation)
     return (
         <div className={styles['myRecommendation']}>
             <h1 className={styles['myRecommendation__title']}>{t('home_page.my_recommendation.title')} </h1>

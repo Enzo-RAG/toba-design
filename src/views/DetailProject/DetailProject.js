@@ -9,9 +9,9 @@ function DetailProject() {
     const [Id, setId] = useState(useParams())
     const [Projet, setProjet] = useState()
     const { t } = useTranslation()
-    console.log(Id.id)
+
     const projet = data.find((e) => e.id === Number(Id.id))
-    console.log('couc', projet)
+
     return (
         <div>
             <Nav />

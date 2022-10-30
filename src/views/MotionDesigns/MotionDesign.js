@@ -11,7 +11,7 @@ function MotionDesign() {
         <div>
             <Nav />
             <div className={styles['MotionDesignPAge']}>
-                <h3>{t('motion_design_page.title')}</h3>
+                <h2 className={styles['MotionDesignPAge__title']}>{t('motion_design_page.title')}</h2>
                 <Videos />
             </div>
             <Footer />

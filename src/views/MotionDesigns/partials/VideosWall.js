@@ -6,19 +6,9 @@ import data from '/home/enzo/projet/toba-design/src/views/MotionDesigns/data.js'
 function MotionDesign() {
     const { t } = useTranslation()
 
-    const projectPresentation = data.map((data, i) => {
-        return (
-            <Video
-                frontPicture={data.frontPicture}
-                miniPicture={data.miniPicture}
-                title={data.title}
-                description={data.description}
-                id={data.id}
-            />
-        )
+    const projectPresentation = data.projet.map((data, i) => {
+        return <Video frontPicture={data.frontPicture} id={data.id} key={i} />
     })
-
-    console.log('verif de data', data[0].frontPicture)
 
     return <div className={styles['wall']}>{projectPresentation}</div>
 }

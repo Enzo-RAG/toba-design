@@ -5,4 +5,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 2em;
+    &__title {
+        margin: 2em 0 2em 0;
+        font-size: 3em;
+    }
 }
